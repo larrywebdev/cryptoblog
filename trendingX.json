@@ -1,0 +1,292 @@
+{
+  "status": true,
+  "trends": [
+    {
+      "name": "Regina",
+      "query": "Regina",
+      "url": "https://twitter.com/search?q=Regina",
+      "tweet_volume": 43000,
+      "tweet_volume_text": "43K"
+    },
+    {
+      "name": "#GPennyBuyAndWin",
+      "query": "%23GPennyBuyAndWin",
+      "url": "https://twitter.com/search?q=%23GPennyBuyAndWin",
+      "tweet_volume": null,
+      "tweet_volume_text": ""
+    },
+    {
+      "name": "#PulseFiesta2025",
+      "query": "%23PulseFiesta2025",
+      "url": "https://twitter.com/search?q=%23PulseFiesta2025",
+      "tweet_volume": null,
+      "tweet_volume_text": ""
+    },
+    {
+      "name": "Ruben Amorim",
+      "query": "Ruben+Amorim",
+      "url": "https://twitter.com/search?q=Ruben+Amorim",
+      "tweet_volume": 33000,
+      "tweet_volume_text": "33K"
+    },
+    {
+      "name": "Lamborghini",
+      "query": "Lamborghini",
+      "url": "https://twitter.com/search?q=Lamborghini",
+      "tweet_volume": 10000,
+      "tweet_volume_text": "10K"
+    },
+    {
+      "name": "#CBINEWSTV",
+      "query": "%23CBINEWSTV",
+      "url": "https://twitter.com/search?q=%23CBINEWSTV",
+      "tweet_volume": null,
+      "tweet_volume_text": ""
+    },
+    {
+      "name": "Omah Lay",
+      "query": "Omah+Lay",
+      "url": "https://twitter.com/search?q=Omah+Lay",
+      "tweet_volume": null,
+      "tweet_volume_text": ""
+    },
+    {
+      "name": "Ferrari",
+      "query": "Ferrari",
+      "url": "https://twitter.com/search?q=Ferrari",
+      "tweet_volume": 19000,
+      "tweet_volume_text": "19K"
+    },
+    {
+      "name": "Phyna",
+      "query": "Phyna",
+      "url": "https://twitter.com/search?q=Phyna",
+      "tweet_volume": null,
+      "tweet_volume_text": ""
+    },
+    {
+      "name": "Bryan Mbeumo",
+      "query": "Bryan+Mbeumo",
+      "url": "https://twitter.com/search?q=Bryan+Mbeumo",
+      "tweet_volume": 21000,
+      "tweet_volume_text": "21K"
+    },
+    {
+      "name": "Camp Nou",
+      "query": "Camp+Nou",
+      "url": "https://twitter.com/search?q=Camp+Nou",
+      "tweet_volume": 22000,
+      "tweet_volume_text": "22K"
+    },
+    {
+      "name": "Don Baba",
+      "query": "Don+Baba",
+      "url": "https://twitter.com/search?q=Don+Baba",
+      "tweet_volume": null,
+      "tweet_volume_text": ""
+    },
+    {
+      "name": "DEDE X EXTRACT",
+      "query": "DEDE+X+EXTRACT",
+      "url": "https://twitter.com/search?q=DEDE+X+EXTRACT",
+      "tweet_volume": null,
+      "tweet_volume_text": ""
+    },
+    {
+      "name": "#DoPassYourself",
+      "query": "%23DoPassYourself",
+      "url": "https://twitter.com/search?q=%23DoPassYourself",
+      "tweet_volume": null,
+      "tweet_volume_text": ""
+    },
+    {
+      "name": "DEDE THE INFLUENCER",
+      "query": "DEDE+THE+INFLUENCER",
+      "url": "https://twitter.com/search?q=DEDE+THE+INFLUENCER",
+      "tweet_volume": null,
+      "tweet_volume_text": ""
+    },
+    {
+      "name": "Angel",
+      "query": "Angel",
+      "url": "https://twitter.com/search?q=Angel",
+      "tweet_volume": 158000,
+      "tweet_volume_text": "158K"
+    },
+    {
+      "name": "Bentley",
+      "query": "Bentley",
+      "url": "https://twitter.com/search?q=Bentley",
+      "tweet_volume": null,
+      "tweet_volume_text": ""
+    },
+    {
+      "name": "Tuchel",
+      "query": "Tuchel",
+      "url": "https://twitter.com/search?q=Tuchel",
+      "tweet_volume": null,
+      "tweet_volume_text": ""
+    },
+    {
+      "name": "Lily Allen",
+      "query": "Lily+Allen",
+      "url": "https://twitter.com/search?q=Lily+Allen",
+      "tweet_volume": null,
+      "tweet_volume_text": ""
+    },
+    {
+      "name": "#ebinpawahungerdey",
+      "query": "%23ebinpawahungerdey",
+      "url": "https://twitter.com/search?q=%23ebinpawahungerdey",
+      "tweet_volume": null,
+      "tweet_volume_text": ""
+    },
+    {
+      "name": "Trade $BLUAI",
+      "query": "Trade+%24BLUAI",
+      "url": "https://twitter.com/search?q=Trade+%24BLUAI",
+      "tweet_volume": null,
+      "tweet_volume_text": ""
+    },
+    {
+      "name": "Kanu",
+      "query": "Kanu",
+      "url": "https://twitter.com/search?q=Kanu",
+      "tweet_volume": 44000,
+      "tweet_volume_text": "44K"
+    },
+    {
+      "name": "Indigenous People of Biafra",
+      "query": "Indigenous+People+of+Biafra",
+      "url": "https://twitter.com/search?q=Indigenous+People+of+Biafra",
+      "tweet_volume": null,
+      "tweet_volume_text": ""
+    },
+    {
+      "name": "Amala",
+      "query": "Amala",
+      "url": "https://twitter.com/search?q=Amala",
+      "tweet_volume": null,
+      "tweet_volume_text": ""
+    },
+    {
+      "name": "Ned Nwoko",
+      "query": "Ned+Nwoko",
+      "url": "https://twitter.com/search?q=Ned+Nwoko",
+      "tweet_volume": 10000,
+      "tweet_volume_text": "10K"
+    },
+    {
+      "name": "Gamblr",
+      "query": "Gamblr",
+      "url": "https://twitter.com/search?q=Gamblr",
+      "tweet_volume": 24000,
+      "tweet_volume_text": "24K"
+    },
+    {
+      "name": "Michael Jackson",
+      "query": "Michael+Jackson",
+      "url": "https://twitter.com/search?q=Michael+Jackson",
+      "tweet_volume": 127000,
+      "tweet_volume_text": "127K"
+    },
+    {
+      "name": "$SIXR",
+      "query": "%24SIXR",
+      "url": "https://twitter.com/search?q=%24SIXR",
+      "tweet_volume": null,
+      "tweet_volume_text": ""
+    },
+    {
+      "name": "Pa Ned",
+      "query": "Pa+Ned",
+      "url": "https://twitter.com/search?q=Pa+Ned",
+      "tweet_volume": null,
+      "tweet_volume_text": ""
+    },
+    {
+      "name": "Maiduguri",
+      "query": "Maiduguri",
+      "url": "https://twitter.com/search?q=Maiduguri",
+      "tweet_volume": null,
+      "tweet_volume_text": ""
+    },
+    {
+      "name": "Rooney",
+      "query": "Rooney",
+      "url": "https://twitter.com/search?q=Rooney",
+      "tweet_volume": 13000,
+      "tweet_volume_text": "13K"
+    },
+    {
+      "name": "MemeMax",
+      "query": "MemeMax",
+      "url": "https://twitter.com/search?q=MemeMax",
+      "tweet_volume": 100000,
+      "tweet_volume_text": "100K"
+    },
+    {
+      "name": "OUT NOW",
+      "query": "OUT+NOW",
+      "url": "https://twitter.com/search?q=OUT+NOW",
+      "tweet_volume": 463000,
+      "tweet_volume_text": "463K"
+    },
+    {
+      "name": "Miyetti Allah",
+      "query": "Miyetti+Allah",
+      "url": "https://twitter.com/search?q=Miyetti+Allah",
+      "tweet_volume": null,
+      "tweet_volume_text": ""
+    },
+    {
+      "name": "Talus",
+      "query": "Talus",
+      "url": "https://twitter.com/search?q=Talus",
+      "tweet_volume": 28000,
+      "tweet_volume_text": "28K"
+    },
+    {
+      "name": "Bale",
+      "query": "Bale",
+      "url": "https://twitter.com/search?q=Bale",
+      "tweet_volume": null,
+      "tweet_volume_text": ""
+    },
+    {
+      "name": "Gaming",
+      "query": "Gaming",
+      "url": "https://twitter.com/search?q=Gaming",
+      "tweet_volume": 121000,
+      "tweet_volume_text": "121K"
+    },
+    {
+      "name": "Nike",
+      "query": "Nike",
+      "url": "https://twitter.com/search?q=Nike",
+      "tweet_volume": 26000,
+      "tweet_volume_text": "26K"
+    },
+    {
+      "name": "#FridayVibes",
+      "query": "%23FridayVibes",
+      "url": "https://twitter.com/search?q=%23FridayVibes",
+      "tweet_volume": null,
+      "tweet_volume_text": ""
+    },
+    {
+      "name": "#itelBlackFriday",
+      "query": "%23itelBlackFriday",
+      "url": "https://twitter.com/search?q=%23itelBlackFriday",
+      "tweet_volume": null,
+      "tweet_volume_text": ""
+    },
+    {
+      "name": "#theneighbourhood",
+      "query": "%23theneighbourhood",
+      "url": "https://twitter.com/search?q=%23theneighbourhood",
+      "tweet_volume": null,
+      "tweet_volume_text": ""
+    }
+  ]
+}
