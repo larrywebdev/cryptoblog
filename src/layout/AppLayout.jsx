@@ -9,7 +9,7 @@ export default function AppLayout() {
     <>
       <Hero />
       <div className="grid lg:flex mt-20 max-w-500 mx-auto pb-20">
-        <div className="flex-4 px-10">
+        <div className="flex-4 px-5 sm:px-10">
           <NewsList />
           <Outlet />
         </div>

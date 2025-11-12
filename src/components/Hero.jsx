@@ -31,7 +31,7 @@ export default function Hero() {
       setIndex((i) => (i + 1) % topNews.length);
     }, 10000);
     return () => clearInterval(interval);
-  }, []);
+  }, [index]);
 
   const next = () => setIndex((i) => (i + 1) % topNews.length);
   const prev = () => setIndex((i) => (i - 1 + topNews.length) % topNews.length);
@@ -75,13 +75,13 @@ export default function Hero() {
       {/* Controls */}
       <button
         onClick={prev}
-        className="absolute left-4 top-1/2 -translate-y-1/2 text-4xl opacity-60 hover:opacity-100 cursor-pointer z-200"
+        className="hidden sm:inline-block absolute left-4 top-1/2 -translate-y-1/2 text-4xl opacity-60 hover:opacity-100 cursor-pointer"
       >
         ‹
       </button>
       <button
         onClick={next}
-        className="absolute right-4 top-1/2 -translate-y-1/2 text-4xl opacity-60 hover:opacity-100 cursor-pointer z-200"
+        className="hidden sm:inline-block absolute right-4 top-1/2 -translate-y-1/2 text-4xl opacity-60 hover:opacity-100 cursor-pointer"
       >
         ›
       </button>
