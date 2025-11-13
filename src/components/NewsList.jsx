@@ -11,7 +11,7 @@ export default function NewsList() {
       <h2 className="text-4xl font-semibold mb-5 lg:text-center">
         Latest News
       </h2>
-      <div className="flex flex-wrap gap-3 lg:justify-center">
+      <div className="flex flex-wrap gap-3">
         {newSources.map((source) => {
           const normalized = source.replaceAll(" ", "").toLowerCase();
           const isActive = activeSource === normalized;

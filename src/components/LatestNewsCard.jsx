@@ -29,7 +29,7 @@ export default function LatestNewsCard({ news }) {
       key={news.title}
       className="py-7 grid sm:flex gap-5 border-b border-b-gray-200"
     >
-      <div className="flex-3 sm:h-40 w-full aspect-[1.5]">
+      <div className="flex-3 sm:h-40 xl:h-48 2xl:h-55 w-full aspect-[1.5] ">
         <Link to={news.url} target="_blank" rel="noreferrer noopener">
           <img
             className="w-full h-full object-cover rounded-lg"

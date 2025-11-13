@@ -18,7 +18,7 @@ export default function Trending() {
   };
 
   return (
-    <div className="flex-1 bg-gray-200 rounded-md lg:rounded-s-md px-5 py-2.5">
+    <div className="flex-1 bg-gray-200 rounded-md lg:rounded-s-md lg:rounded-e-none px-5 py-2.5">
       <h2 className="text-2xl font-semibold">Trending</h2>
       <div className="flex gap-3 mt-5">
         <TrendingButton

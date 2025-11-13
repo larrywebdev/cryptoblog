@@ -6,17 +6,17 @@ export default function Header() {
         CryptoBlog
       </Link>
       <nav>
-        <div className="flex space-x-3">
+        <div className="flex gap-3">
           <Link
             to="#"
-            className="px-2 py-1 font-medium border border-white text-white rounded-md transition-all duration-200 hover:bg-white/20"
+            className="px-2 py-1 sm:px-4 sm:py-2 font-medium border border-white text-white rounded-md transition-all duration-200 hover:bg-white/20 hover:text-white/75"
           >
             Sign In
           </Link>
 
           <Link
             to="#"
-            className="px-2 py-1 font-medium bg-white text-black rounded-md transition-all duration-200 hover:bg-gray-100"
+            className="px-2 py-1 sm:px-4 sm:py-2 font-medium bg-white text-black rounded-md transition-all duration-200 hover:bg-gray-200 hover:text-gray-600"
           >
             Sign Up
           </Link>
