@@ -1,7 +1,6 @@
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 import Stack from "@mui/material/Stack";
 import Pagination from "@mui/material/Pagination";
-import { useEffect } from "react";
 
 export default function PaginatedCards({
   items,
@@ -12,17 +11,17 @@ export default function PaginatedCards({
   const startIndex = (currentPage - 1) * itemsPerPage;
   const selectedItems = items.slice(startIndex, startIndex + itemsPerPage);
   const totalPages = Math.ceil(items.length / itemsPerPage);
+  const latestNewsRef = useRef(null);
 
   useEffect(() => {
-    document
-      .getElementById("latestNews")
-      ?.scrollIntoView({ behavior: "smooth" });
+    if (latestNewsRef.current) {
+      latestNewsRef.current.scrollIntoView({ behavior: "smooth" });
+    }
   }, [currentPage]);
-
   return (
     <div>
       {/* Render cards */}
-      <div id="latestNews" className="grid gap-4">
+      <div className="grid gap-4" ref={latestNewsRef}>
         {selectedItems.map((item, index) => (
           <div key={index}>{renderCard(item)}</div>
         ))}
@@ -34,7 +33,9 @@ export default function PaginatedCards({
           <Pagination
             count={totalPages}
             page={currentPage}
-            onChange={(e, value) => setCurrentPage(value)}
+            onChange={(e, value) => {
+              setCurrentPage(value);
+            }}
             variant="outlined"
             shape="rounded"
           />
