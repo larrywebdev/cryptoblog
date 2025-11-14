@@ -1,4 +1,3 @@
-import Button from "@mui/material/Button";
 import { Link, useParams } from "react-router-dom";
 import newSources from "../../newsSources.json";
 
@@ -8,7 +7,10 @@ export default function NewsList() {
 
   return (
     <>
-      <h2 className="text-4xl font-semibold mb-5 lg:text-center">
+      <h2
+        className="text-4xl font-semibold mb-5 lg:text-center"
+        id="latestNews"
+      >
         Latest News
       </h2>
       <div className="flex flex-wrap gap-3">
