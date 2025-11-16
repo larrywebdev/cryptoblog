@@ -9,14 +9,14 @@ export default function Header() {
         <div className="flex gap-3">
           <Link
             to="#"
-            className="px-2 py-1 sm:px-4 sm:py-2 font-medium border border-white text-white rounded-md transition-all duration-200 hover:bg-white/20 hover:text-white/75"
+            className="px-2 py-1 sm:px-4 sm:py-1.5 font-medium border-2 border-white text-white rounded-md transition-all duration-200 hover:bg-white/20 hover:text-white/75"
           >
             Sign In
           </Link>
 
           <Link
             to="#"
-            className="px-2 py-1 sm:px-4 sm:py-2 font-medium bg-white text-black rounded-md transition-all duration-200 hover:bg-gray-200 hover:text-gray-600"
+            className="px-2 py-1 sm:px-4 sm:py-1.5 font-medium bg-white text-black rounded-md transition-all duration-200 hover:bg-gray-200 hover:text-gray-600"
           >
             Sign Up
           </Link>

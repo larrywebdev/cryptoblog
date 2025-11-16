@@ -1,8 +1,30 @@
+import axios from "axios";
+import { useQuery } from "@tanstack/react-query";
 import { Link } from "react-router-dom";
-import googleTrends from "../../trendinggoogle.json";
 import { formatDate } from "./FormatDate";
+import Spinner from "./Spinner";
+// import googleTrends from "../../trendinggoogle.json";
+
 export default function GoogleTrends() {
-  return googleTrends.items.map(({ date, news: [firstNews] }) => (
+  const {
+    data: trendingGoogle,
+    isLoading,
+    error,
+  } = useQuery({
+    queryKey: ["trendingGoogle"],
+    queryFn: async () => {
+      const res = await axios.get("/api/trendingGoogle");
+      return res.data.items;
+    },
+  });
+  if (isLoading) return <Spinner />;
+  if (error)
+    return (
+      <div className="text-lg font-medium mx-auto my-20">
+        No trends at the moment
+      </div>
+    );
+  return trendingGoogle.map(({ date, news: [firstNews] }) => (
     <div
       className="border-b border-b-gray-300 pb-5 w-full"
       key={firstNews.news_title}

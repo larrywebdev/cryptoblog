@@ -1,29 +1,7 @@
 import { Link } from "react-router-dom";
 import { formatDate } from "./FormatDate";
-// import { useEffect, useState } from "react";
-// import axios from "axios";
 
 export default function LatestNewsCard({ news }) {
-  // const { source } = useParams();
-  // const [news, setNews] = useState([]);
-  // const [loading, setLoading] = useState(true);
-  // const [error, setError] = useState(true);
-  // const query = source || "coindesk";
-
-  // useEffect(() => {
-  //   const fetchNews = async () => {
-  //     try {
-  //       const allNews = await axios.get(`/api/allNews?query=${query}`);
-  //       setNews(allNews);
-  //     } catch {
-  //       setError("Error fetching news");
-  //     } finally {
-  //       setLoading(false);
-  //     }
-  //   };
-  //   // fetchNews();
-  // }, [query]);
-
   return (
     <div
       key={news.title}
