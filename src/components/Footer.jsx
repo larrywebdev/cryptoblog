@@ -8,7 +8,6 @@ export default function Footer() {
   const currentYear = new Date().getFullYear();
   const [showTopBtn, setShowTopBtn] = useState(false);
 
-  // Show button after scrolling down
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > 300) setShowTopBtn(true);
@@ -25,15 +24,13 @@ export default function Footer() {
   return (
     <footer className="bg-gray-900 text-gray-300 py-10 px-5">
       <div className="max-w-500 mx-auto grid md:grid-cols-4 gap-x-8 gap-y-8">
-        {/* Branding */}
         <div>
-          <h2 className="text-2xl font-bold text-white mb-2">CryptoBlog</h2>
+          <h2 className="text-2xl font-bold text-white mb-2">BlockBrief</h2>
           <p className="text-sm text-gray-400 leading-relaxed">
             Your daily source for crypto news, guides, and market insights.
           </p>
         </div>
 
-        {/* Explore */}
         <div>
           <h3 className="text-lg font-semibold mb-3 text-white">Explore</h3>
           <ul className="space-y-2 text-sm">
@@ -50,7 +47,6 @@ export default function Footer() {
           </ul>
         </div>
 
-        {/* Resources */}
         <div>
           <h3 className="text-lg font-semibold mb-3 text-white">Resources</h3>
           <ul className="space-y-2 text-sm">
@@ -67,7 +63,6 @@ export default function Footer() {
           </ul>
         </div>
 
-        {/* Socials */}
         <div>
           <h3 className="text-lg font-semibold mb-3 text-white">Follow Us</h3>
           <div className="flex space-x-4 text-xl">
@@ -99,11 +94,10 @@ export default function Footer() {
         </div>
       </div>
 
-      {/* Copyright */}
       <div className="border-t border-gray-800 mt-10 pt-6 text-center text-sm text-gray-500">
         &copy; {currentYear} CryptoBlog. All rights reserved.
       </div>
-      {/* Back to Top Button */}
+
       {showTopBtn && (
         <button
           className="fixed bottom-8 right-8 bg-gray-800 text-white p-3 rounded-full shadow-lg hover:bg-gray-700 transition-colors duration-200"

@@ -5,7 +5,6 @@ import Stack from "@mui/material/Stack";
 import Pagination from "@mui/material/Pagination";
 import axios from "axios";
 import Spinner from "./Spinner";
-// import newsData from "../../all_news.json";
 
 export default function PaginatedCards({ renderCard }) {
   const [currentPage, setCurrentPage] = useState(1);
@@ -54,14 +53,12 @@ export default function PaginatedCards({ renderCard }) {
     <div>
       <div id="latestNews" ref={latestNewsRef} />
 
-      {/* Render cards */}
       <div className="grid gap-4">
         {selectedItems.map((item, index) => (
           <div key={index}>{renderCard(item)}</div>
         ))}
       </div>
 
-      {/* Pagination controls */}
       <div className="flex justify-center mt-4 mb-15 lg:mb-0 space-x-2">
         <Stack spacing={2}>
           <Pagination

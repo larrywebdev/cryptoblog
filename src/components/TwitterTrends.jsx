@@ -2,7 +2,6 @@ import { useQuery } from "@tanstack/react-query";
 import { Link } from "react-router-dom";
 import axios from "axios";
 import Spinner from "./Spinner";
-// import twitterTrends from "../../trendingX.json";
 
 export default function TwitterTrends() {
   const {

@@ -3,7 +3,6 @@ import { useQuery } from "@tanstack/react-query";
 import { Link } from "react-router-dom";
 import { formatDate } from "./FormatDate";
 import Spinner from "./Spinner";
-// import googleTrends from "../../trendinggoogle.json";
 
 export default function GoogleTrends() {
   const {

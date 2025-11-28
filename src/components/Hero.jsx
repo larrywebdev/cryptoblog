@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Link } from "react-router-dom";
-// import tNews from "../../top_news.json";
 import Header from "./Header";
 
 export default function Hero({ error, topNews }) {
@@ -38,10 +37,8 @@ export default function Hero({ error, topNews }) {
               }}
               className="absolute inset-0 bg-cover bg-center bg-no-repeat flex items-center justify-center"
             >
-              {/* Dark overlay */}
               <div className="absolute inset-0 bg-black/30" />
 
-              {/* Text */}
               <div className="relative z-10 max-w-7xl px-6 text-center">
                 <Link
                   to={topNews[index].url}
@@ -59,7 +56,6 @@ export default function Hero({ error, topNews }) {
             </motion.div>
           </AnimatePresence>
 
-          {/* Controls */}
           <button
             onClick={prev}
             className="z-200 hidden sm:inline-block absolute left-4 top-1/2 -translate-y-1/2 text-4xl opacity-60 hover:opacity-100 cursor-pointer"
@@ -73,7 +69,6 @@ export default function Hero({ error, topNews }) {
             ›
           </button>
 
-          {/* Dots */}
           <div className="absolute bottom-6 left-1/2 -translate-x-1/2 flex gap-2">
             {topNews.map((_, i) => (
               <button

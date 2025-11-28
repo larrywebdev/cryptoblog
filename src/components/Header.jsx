@@ -3,25 +3,8 @@ export default function Header() {
   return (
     <div className="relative z-100 md:px-6 md:py-5 py-4 px-2 flex justify-between bg-none border-b border-b-white/20">
       <Link to="/" className="text-2xl font-semibold">
-        CryptoBlog
+        BlockBrief
       </Link>
-      <nav>
-        <div className="flex gap-3">
-          <Link
-            to="#"
-            className="px-2 py-1 sm:px-4 sm:py-1.5 font-medium border-2 border-white text-white rounded-md transition-all duration-200 hover:bg-white/20 hover:text-white/75"
-          >
-            Sign In
-          </Link>
-
-          <Link
-            to="#"
-            className="px-2 py-1 sm:px-4 sm:py-1.5 font-medium bg-white text-black rounded-md transition-all duration-200 hover:bg-gray-200 hover:text-gray-600"
-          >
-            Sign Up
-          </Link>
-        </div>
-      </nav>
     </div>
   );
 }
