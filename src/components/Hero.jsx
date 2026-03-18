@@ -17,7 +17,7 @@ export default function Hero({ error, topNews }) {
   const prev = () => setIndex((i) => (i - 1 + topNews.length) % topNews.length);
 
   return (
-    <div className="relative h-[600px] w-full overflow-hidden text-white bg-black/90">
+    <div className="relative min-h-150 h-screen max-h-200 w-full overflow-hidden text-white bg-black/90">
       <Header />
       {error ? (
         <div className="text-3xl font-medium text-center mt-40">
@@ -37,7 +37,7 @@ export default function Hero({ error, topNews }) {
               }}
               className="absolute inset-0 bg-cover bg-center bg-no-repeat flex items-center justify-center"
             >
-              <div className="absolute inset-0 bg-black/30" />
+              <div className="absolute inset-0 bg-black/60" />
 
               <div className="relative z-10 max-w-7xl px-6 text-center">
                 <Link

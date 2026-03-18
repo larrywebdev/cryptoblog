@@ -25,7 +25,7 @@ export default function GoogleTrends() {
     );
   return trendingGoogle.map(({ date, news: [firstNews] }) => (
     <div
-      className="border-b border-b-gray-300 pb-5 w-full"
+      className="border-t border-t-gray-300 pt-3 w-full"
       key={firstNews.news_title}
     >
       <Link to={firstNews.url} target="_blank" rel="noopener noreferrer">

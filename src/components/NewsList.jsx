@@ -6,7 +6,7 @@ export default function NewsList() {
   const activeSource = urlSourceParam || "coindesk";
 
   return (
-    <>
+    <div className="mb-5">
       <h2
         className="text-4xl font-semibold mb-5 lg:text-center"
         id="latestNews"
@@ -33,6 +33,6 @@ export default function NewsList() {
           );
         })}
       </div>
-    </>
+    </div>
   );
 }
